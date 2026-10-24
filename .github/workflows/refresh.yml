@@ -1,0 +1,25 @@
+name: Refresh from live site
+on:
+  schedule:
+    - cron: "15 6 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node update.mjs
+      - name: Commit changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "axial-catalogue-bot"
+            git config user.email "sales@axialsupply.co.uk"
+            git add -A
+            git commit -m "Catalogue refresh $(date -u +%F)"
+            git push
+          fi

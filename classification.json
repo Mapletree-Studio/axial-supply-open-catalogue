@@ -1,0 +1,100 @@
+[
+ {
+  "unspsc": "24112402",
+  "title": "Hazardous materials cabinets",
+  "cpv": [
+   "39122100-4",
+   "35113000-9"
+  ],
+  "lines": 6
+ },
+ {
+  "unspsc": "26111700",
+  "title": "Batteries and cells and accessories",
+  "cpv": [
+   "31440000-2"
+  ],
+  "lines": 2
+ },
+ {
+  "unspsc": "31163202",
+  "title": "Retaining rings",
+  "cpv": [
+   "44532000-8"
+  ],
+  "lines": 165
+ },
+ {
+  "unspsc": "31171504",
+  "title": "Ball bearings",
+  "cpv": [
+   "44440000-6"
+  ],
+  "lines": 102
+ },
+ {
+  "unspsc": "46182103",
+  "title": "Grounding hardware",
+  "cpv": [],
+  "lines": 9
+ },
+ {
+  "unspsc": "46182104",
+  "title": "Anti static floor mats",
+  "cpv": [
+   "39532000-0"
+  ],
+  "lines": 13
+ },
+ {
+  "unspsc": "46182105",
+  "title": "Anti static worktable mats",
+  "cpv": [
+   "39532000-0"
+  ],
+  "lines": 12
+ },
+ {
+  "unspsc": "47131502",
+  "title": "Cleaning cloths or wipes",
+  "cpv": [
+   "39525800-6"
+  ],
+  "lines": 21
+ },
+ {
+  "unspsc": "47131900",
+  "title": "Absorbents",
+  "cpv": [
+   "39830000-9",
+   "35113000-9"
+  ],
+  "lines": 184
+ },
+ {
+  "unspsc": "47131901",
+  "title": "Absorbent mats",
+  "cpv": [
+   "39830000-9",
+   "35113000-9"
+  ],
+  "lines": 18
+ },
+ {
+  "unspsc": "47131902",
+  "title": "Granular absorbent",
+  "cpv": [
+   "39830000-9",
+   "35113000-9"
+  ],
+  "lines": 5
+ },
+ {
+  "unspsc": "52101500",
+  "title": "Rugs and mats",
+  "cpv": [
+   "39532000-0"
+  ],
+  "lines": 163
+ }
+]
