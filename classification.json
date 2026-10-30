@@ -35,7 +35,9 @@
  {
   "unspsc": "46182103",
   "title": "Grounding hardware",
-  "cpv": [],
+  "cpv": [
+   "39532000-0"
+  ],
   "lines": 9
  },
  {
@@ -95,6 +97,6 @@
   "cpv": [
    "39532000-0"
   ],
-  "lines": 163
+  "lines": 157
  }
 ]
